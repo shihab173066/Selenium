@@ -16,6 +16,8 @@ from selenium.webdriver.common.by import By
 # Importing 'ChromeDriverManager' from 'webdriver_manager.chrome' to automatically manage and install the ChromeDriver.
 from webdriver_manager.chrome import ChromeDriverManager
 
+""" ------------------------------------- Imports that are required -------------------------------------------------------------"""
+
 # Initializing the Chrome WebDriver, setting up the service using the ChromeDriverManager, which installs the appropriate ChromeDriver.
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
